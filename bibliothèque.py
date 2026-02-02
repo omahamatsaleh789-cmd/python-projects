@@ -1,6 +1,8 @@
 from datetime import datetime
 
-
+"""Ce projet concernait un système de gestion de bibliothèque en ligne de commande. 
+Il permettait d’ajouter des livres, d’enregistrer des emprunts et des retours, et de vérifier la disponibilité des ouvrages. 
+"""
 
 livres = [
     {"id": 1, "titre": "python", "auteur": "serpent", "disponible": True},
@@ -98,3 +100,4 @@ if __name__ == "__main__":
 
         else:
             print("Choix invalide")
+
