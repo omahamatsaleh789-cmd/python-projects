@@ -1,5 +1,12 @@
 from datetime import datetime
 
+"""Ce projet est un mini système bancaire. 
+Il simulait la gestion de comptes avec des fonctionnalités telles que 
+la création de comptes, les dépôts, les retraits, le blocage de comptes 
+et l’enregistrement des opérations dans un fichier. 
+Ce projet utilise des fonctions , des boucles, des conditions, 
+ainsi que la gestion des fichiers et le module datetime. 
+"""
 
 comptes = [
     {"id": 1, "nom": "Client_1", "solde": 1345.53, "actif": True},
@@ -127,3 +134,4 @@ if __name__ == "__main__":
 
         else:
             print("Choix invalide")
+
