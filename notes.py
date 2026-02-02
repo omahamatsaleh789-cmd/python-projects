@@ -1,5 +1,11 @@
 from datetime import datetime
 
+"""Ce projet concernait un système de gestion de notes d’étudiants. 
+L’objectif principal est de permettre l’ajout d’étudiants, l’enregistrement de leurs notes, 
+le calcul des moyennes et l’affichage des résultats. 
+Le projet utilisait des listes et des dictionnaires pour stocker les données, 
+ainsi que des fonctions pour structurer le code. 
+"""
 
 etudiants = [{
     "id": 1,
@@ -112,3 +118,4 @@ if __name__ == "__main__":
 
 
                  
+
