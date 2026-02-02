@@ -1,5 +1,21 @@
 from math import*
 
+"""Ce projet permet de résoudre une équation du second degré de la forme
+ax² + bx + c = 0, à partir de valeurs saisies par l’utilisateur.
+
+L’objectif principal du projet était de mettre en pratique
+les structures conditionnelles, la manipulation des entrées utilisateur
+et l’utilisation de modules standards,
+notamment le module math pour le calcul de la racine carrée.
+
+Le programme commence par afficher correctement l’équation
+selon les signes de a, b et c, ce qui m’a demandé de gérer
+plusieurs cas conditionnels afin d’obtenir un affichage mathématique lisible.
+
+Ensuite, il calcule le discriminant Δ et détermine le nombre de solutions
+(aucune, une ou deux) en fonction de sa valeur.
+"""
+
 print("veuillez saisir les valeurs de a, b et c avec a,b,c != 0")
 
 a = int(input("a : "))
@@ -56,6 +72,7 @@ else :
     print("=>  x1 = (-b-sqrt(D)) / 2*a =",x1)
     print("et  x2 = (-b+sqrt(D)) / 2*a = ",x2)
     print("d'où cette équation admet deux solution qui sont :",x1,"et",x2)
+
 
 
 
